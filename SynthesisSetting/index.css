@@ -1,0 +1,70 @@
+.synthesis-setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.synthesis-setting > div {
+  /* border: 1px solid #dddddd; */
+  padding-top: 10px;
+  /* font-weight: bold; */
+}
+
+.voice-name {
+  width: 100%;
+  color: #000;
+}
+
+.voice-quality {
+  width: 100%;
+  color: #000;
+}
+
+
+.synthesis {
+  width: 100%;
+}
+
+:local(.selectVoice),
+:local(.selectBitRate) {
+  width: 100%;
+}
+
+:local(.btnSpeakNow) {
+  text-transform: uppercase;
+  background: #000;
+  color: #fff;
+  font-weight: bold;
+  width: 100%;
+  border: 1px solid #dddddd;
+}
+
+:local(.btnSpeakNow:hover),
+:local(.btnSpeakNow:focus) {
+  background: yellow;
+  color: #000;
+  border: 1px solid #dddddd;
+}
+
+:local(.btnSpeakNowDisable) {
+  text-transform: uppercase;
+  background: gray;
+  color: #000;
+  font-weight: bold;
+  width: 100%;
+}
+
+@media (min-width: 550px) {
+  .voice-name {
+    width: 39%;
+  }
+  
+  .voice-quality {
+    width: 39%;
+  }
+  
+  .synthesis {
+    width: 20%;
+  }
+}

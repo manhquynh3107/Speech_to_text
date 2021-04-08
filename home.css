@@ -1,0 +1,155 @@
+:local(.homeWrapper) {
+  padding: 10px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+:local(.inputTextArea) {
+  width: 100%;
+  border: 1px solid #666;
+}
+
+:local(.count) {
+  float: right;
+  color: green;
+  font-style: italic;
+}
+
+:local(.zeroCount) {
+  float: right;
+  color: #d2d2d2;
+  font-style: italic;
+}
+
+:local(.reachToMaxCount) {
+  float: right;
+  color: red;
+  font-style: italic;
+}
+
+:local(.dangerNotification) {
+  text-align: center;
+  color: red;
+}
+
+.label-enter-email-in-home-page {
+  font-size: 17px;
+  font-weight: normal;
+}
+
+:local(.separate) {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+:local(.audioWrapper) {
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
+}
+
+:local(.audio) {
+  width: 100%;
+}
+
+:local(.btnDownloadEnable) {
+  width: 49%;
+  border: none;
+  cursor: pointer;
+  color: green;
+  text-align: center;
+  line-height: 30px;
+}
+
+:local(.btnDownloadDisable) {
+  width: 49%;
+  background-color: #fff !important;
+  text-align: center;
+  border: none;
+  line-height: 30px;
+}
+
+:local(.btnDownloadEnable:hover),
+:local(.btnDownloadEnable:focus) {
+  color: green;
+  font-weight: bold;
+}
+
+:local(.btnGetEmbeddedCodeEnable) {
+  width: 49%;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  color: green;
+  line-height: 30px;
+}
+
+:local(.btnGetEmbeddedCodeDisable) {
+  width: 49%;
+  background-color: #fff !important;
+  border: none;
+  text-align: center;
+  line-height: 30px;
+}
+
+:local(.btnGetEmbeddedCodeEnable:hover),
+:local(.btnGetEmbeddedCodeEnable:active) {
+  font-weight: bold;
+  color: green;
+}
+
+.text-area-home-page {
+  margin-top: 20px;
+}
+
+.label-text-area-home-page {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+
+.wrapper-btn-copy-embedded-code-home-page {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.btn-copy-embedded-code-home-page {
+  color: #000;
+  font-weight: bold;
+  background: #eeca51;
+  text-transform: uppercase;
+  border: none;
+  padding: 10px;
+  width: 20%;
+  max-width: 300px;
+  cursor: pointer;
+}
+
+.btn-send-request-home-page-wrapper {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.btn-send-request-home-page {
+  color: #000;
+  font-weight: bold;
+  background: #eeca51;
+  text-transform: uppercase;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+  cursor: pointer;
+}
+
+:local(.hidden) {
+  opacity: 0;
+  margin-bottom: -50px;
+}
+
+:local(.display) {
+  opacity: 1;
+}
